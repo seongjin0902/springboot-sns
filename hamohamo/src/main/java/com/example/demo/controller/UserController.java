@@ -193,6 +193,7 @@ public class UserController {
 		} else {
 			// 회원 탈퇴에 실패한 경우 에러 메시지 등을 처리합니다.
 			return "redirect:/mypage?error=WithdrawFailed";
+
 		}
 	}
 
